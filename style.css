@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-item a:hover{
+    font-weight: 10px;
+}
+.nav{
+    background-color: #f5f5f5;
+}
+.logo{
+    min-width: 92px;
+    max-width: 92px;
+    margin: auto 0;
+}
+.top-right-icons ul{
+    padding: 0px;
+    margin: 0px;
+}
+.top-right-icons ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+
+}
+.top-extra-nav .nav-link:hover{
+    font-weight: bold;
+}
+.main-top-nav .nav-link:hover {
+    color:#e40000 !important;
+}
+.inner{
+    padding-top:4%;
+    background-color:#8d0000;
+    color:white;
+    height:80%;
+
+}
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    background-color: #8d0000;
+}
+.offer-btn button{
+    justify-content: space-between;
+}
+.offer-btn button img{
+    filter: brightness(5.5);
+}
+
+.boxes{
+    background-color: #f2f4f5;
+}
+.boxes .card{
+    margin: 5px;
+}
+.boxes .card .card-body{
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.boxes .card .card-body img{
+    height: 20px;
+}
+.image{
+    background-color: black;
+
+}
+.know-more {
+    margin: 60px 0 0;
+    font-size: 18px;
+    padding: 18px 44px;
+    width: fit-content;
+    letter-spacing: .08em;
+    background: radial-gradient(87.5% 87.5% at 29.69% 6.25%,#970000 0,#400707 100%);
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.contents{
+    background-color: #f5f5f5;
+    padding-top:5%;
+}
+ul{
+    list-style:none;
+    
+}
+ul a{
+    text-decoration: none;  
+    color:black;
+}
+.important-links a{
+    color:black;
+    text-decoration: none;
+    font-size:15px;
+
+}
+.social{
+    display: flex;
+    margin-top: 20px;
+}
+.social a{
+    padding:5px;
+}
