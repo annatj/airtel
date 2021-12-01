@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 .nav-item a:hover{
     font-weight: 10px;
@@ -99,3 +100,37 @@ ul a{
 .social a{
     padding:5px;
 }
+
+ /* input, input:focus, textarea:focus, select:focus{ 
+    outline: none;
+    box-shadow: none !important;
+    border: none !important;
+    }  */
+  
+/* .size123{
+  height: 50%;
+
+
+
+} */
+.mycustom{
+    /* border: solid 1px green; */
+    position: relative;
+    
+    
+    }
+    .mycustom input[type=text] {
+    border: none;
+    width: 100%;
+    padding-right: 123px;
+    
+    }
+    
+    
+    
+    .mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;z-index:9;
+    }
